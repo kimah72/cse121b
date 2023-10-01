@@ -41,6 +41,12 @@ document.querySelector("#divideNumbers").addEventListener("click", divideNumbers
 
 /* Decision Structure */
 
+const date = new Date();
+const year = date.getFullYear() ;
+
+let currentYear = '2023';
+const yearElement = document.querySelector('#year');
+yearElement.textContent = currentYear;
 
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
@@ -66,4 +72,4 @@ document.querySelector('#multiplied').innerHTML = numbersArray.map(number => num
 
 /* Output Sum of Multiplied by 2 Array */
 
-document.querySelector('#sumOfMultiplied').innerHTML = numbersArray.reduce((sum, number) => sum + number * 2)
+document.querySelector('#sumOfMultiplied').innerHTML = numbersArray.reduce(((sum, number) => sum + number * 2))
