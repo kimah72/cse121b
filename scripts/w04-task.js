@@ -24,8 +24,12 @@ myProfile.placesLived.push(
         length: '12 years'
     },
     {
-        place: 'Spanish FOrk, UT',
+        place: 'Spanish Fork, UT',
         length: '15 years'
+    },
+    {
+        place: '',
+        length: ''
     }
 );
 /* DOM Manipulation - Output */
