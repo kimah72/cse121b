@@ -72,4 +72,7 @@ document.querySelector('#multiplied').innerHTML = numbersArray.map(number => num
 
 /* Output Sum of Multiplied by 2 Array */
 
-document.querySelector('#sumOfMultiplied').innerHTML = numbersArray.reduce(((sum, number) => sum + number * 2))
+const doubledNumbers = numbersArray.map((number) => number * 2);
+const sum = doubledNumbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+const sumOfMultipliedElement = document.getElementById("sumOfMultiplied");
+document.querySelector('#sumOfMultiplied').innerHTML = sum
