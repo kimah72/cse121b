@@ -70,8 +70,7 @@ let sortBy = (temples) => {
             break;
         case "notutah":
             // Filter for temples located outside Utah
-            displayTemples(temples.filter((temple) =>
-            !temple.location.includes("Utah"))
+            displayTemples(temples.filter((temple) => !temple.location.includes("Utah"))
             );
             break;
         case "older":
