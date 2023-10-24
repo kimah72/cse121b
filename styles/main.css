@@ -157,11 +157,11 @@ h1 {
     border-radius: 0.6em;
     display: none;
 }
-#recipe pre {
+#recipe preview {
     white-space: pre-wrap;
     word-wrap: break-word;
     padding: 2.5em 1.2em 1.2em 1.2em;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 #hide-recipe{
     font-size: 1em;
