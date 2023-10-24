@@ -64,7 +64,7 @@ searchButton.addEventListener("click", () => {
         });
       })
       .catch(() => {
-        result.innerHTML = `<h3>Invalid Input</h3>`;
+        result.innerHTML = `<h3>I do not understand</h3>`;
       });
   }
 });
