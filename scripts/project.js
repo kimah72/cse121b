@@ -77,7 +77,7 @@ searchButton.addEventListener("click", async () => {
                 recipe.style.display = "block";
             });
         } catch (error) {
-            result.innerHTML = `<h3>Error, not understood.</h3>`;
+            result.innerHTML = `<h3>Error, not understood</h3>`;
         }
     }
 });
