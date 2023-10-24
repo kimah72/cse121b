@@ -151,11 +151,12 @@ h1 {
     background-color: white;
     min-height: 100%;
     width: 100%;
-    top: 0;
-    left: 0;
+    top: 15px;
+    left: 20px;
+    right: 20px;
     z-index: 2;
     border-radius: 0.6em;
-    display: none;
+    display: contents;
 }
 #recipe preview {
     white-space: pre-wrap;
